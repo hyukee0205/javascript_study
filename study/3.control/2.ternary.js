@@ -9,4 +9,5 @@ if (fruit === 'apple') {
 fruit === 'apple' ? console.log('🍎') : console.log('😍');
 
 let emoji = fruit === 'apple' ? '🍎' : '😍';
+// emoji 값을 조건에 맞게 할당해준다.
 console.log(emoji);

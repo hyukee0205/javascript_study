@@ -17,6 +17,7 @@ const apple = {
   color: 'red',
   display: '🍎',
 };
+
 // apple = {};
 console.log(apple);
 apple.name = 'orange';
