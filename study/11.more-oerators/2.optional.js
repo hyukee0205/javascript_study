@@ -8,6 +8,7 @@ console.log(price);
 
 let obj = { name: '🐶', owner: { name: '엘리' } };
 function printName(obj) {
+  // const ownerName = obj && obj.owner && obj.owner.name;
   const ownerName = obj?.owner?.name;
   console.log(ownerName);
 }

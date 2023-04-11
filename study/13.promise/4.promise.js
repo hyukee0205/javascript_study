@@ -1,3 +1,4 @@
+// then을 호출할 때 사용할 resolve, 실패할 때 사용할 reject
 function runInDelay(seconds) {
   return new Promise((resolve, reject) => {
     if (!seconds || seconds < 0) {

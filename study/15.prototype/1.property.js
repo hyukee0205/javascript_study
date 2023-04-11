@@ -42,7 +42,7 @@ Object.defineProperties(student, {
   },
   fullName: {
     get() {
-      return `${lastName} ${firstName}`;
+      return `${this.lastName} ${this.firstName}`;
     },
     set(name) {
       [this.lastName, this.firstName] = name.split(' ');
@@ -50,4 +50,4 @@ Object.defineProperties(student, {
     configurable: true,
   },
 });
-console.log(student);
+console.log(student.fullName);
